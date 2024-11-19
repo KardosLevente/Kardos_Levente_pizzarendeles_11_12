@@ -7,6 +7,25 @@
 </head>
 <body>
     <h1>Pizzarendelési űrlap</h1>
+
+    <form method="post">
+        <fieldset>
+        <legend>Vevő adatai</legend>
+        Név<input type="text" name="name" required> <br>
+        Telefon<input type="tel" name="phone" required>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Pizza mérete</legend>
+            <input type="radio" name="size" value="kicsi">kicsi<br>
+            <input type="radio" name="size" value="nagy">nagy<br>            
+        </fieldset>
+
+        <button type="submit">Visszaálítás</button>
+        <button type="submit">Elküldés</button>
+
+    </form>
+
     <a href="/">Vissza az főoldalra</a>
 
 </body>
